@@ -7,11 +7,18 @@ using System.Diagnostics;
 
 namespace PlayToontownRemodified
 {
+   class Launcher
+  {   
+   
    public void PlayGame()
    {
-       Process.Start("game.exe")
-       }
-          Process.Start(url);
+      Process.Start("game.exe")
+   }
+      
+      public void LaunchWebsite(string url) 
+   {
+    
+       Process.Start(url);
           }
      }
 }
